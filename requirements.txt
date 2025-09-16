@@ -12,6 +12,7 @@ pytest
 httpx
 itsdangerous
 pydantic[email]
+pydantic-settings
 PyMuPDF
 beautifulsoup4
 langdetect
@@ -25,5 +26,4 @@ authlib
 passlib[bcrypt]
 openai
 deep-translator
-python-multipart
 SQLAlchemy
