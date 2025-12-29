@@ -51,3 +51,5 @@ azure-cognitiveservices-speech
 
 # ---------------- Testing ----------------
 pytest
+langchain
+langchain-google-genai
