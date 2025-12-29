@@ -26,8 +26,6 @@ passlib[bcrypt]
 openai
 deep-translator
 aiofiles
-
-
 python-multipart
 sqlalchemy
 pydantic-settings
