@@ -27,3 +27,5 @@ openai
 deep-translator
 python-multipart
 sqlalchemy
+pydantic-settings
+
