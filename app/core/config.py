@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 # Token now expires in 60 minutes (1 hour)
     GOOGLE_CLIENT_ID: Optional[str] = os.getenv("GOOGLE_CLIENT_ID")
     GOOGLE_CLIENT_SECRET: Optional[str] = os.getenv("GOOGLE_CLIENT_SECRET")
-    CLIENT_ORIGIN_URL: str = os.getenv("CLIENT_ORIGIN_URL", "http://localhost:3000")
+    CLIENT_ORIGIN_URL: str = os.getenv("CLIENT_ORIGIN_URL", "https://customize-chatbot-frontend.vercel.app")
 
     # --- General LLM & Embedding Settings --- 
     # Generic LLM API Key (optional, specific keys below are preferred)

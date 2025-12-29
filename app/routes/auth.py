@@ -100,4 +100,4 @@ async def auth_callback(
         algorithm=settings.ALGORITHM, 
     )
     
-    return RedirectResponse(url=f"http://localhost:3000/?token={app_token}")
+    return RedirectResponse(url=f"https://customize-chatbot-frontend.vercel.app/?token={app_token}")

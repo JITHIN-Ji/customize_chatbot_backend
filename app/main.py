@@ -28,7 +28,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
      allow_origins=[
-        settings.CLIENT_ORIGIN_URL or "http://localhost:3000",
+        settings.CLIENT_ORIGIN_URL or "https://customize-chatbot-frontend.vercel.app",
         "null" 
     ], 
 
