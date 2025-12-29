@@ -1,32 +1,53 @@
+# ---------------- Core API ----------------
 fastapi
 uvicorn[standard]
 python-dotenv
-PyPDF2
-sentence-transformers
-faiss-cpu
+httpx
+requests
+
+# ---------------- Validation & Settings ----------------
+pydantic[email]
+pydantic-settings
+itsdangerous
+
+# ---------------- Auth & Security ----------------
+authlib
+python-jose[cryptography]
+passlib[bcrypt]
+
+# ---------------- Database ----------------
+sqlalchemy
+aiosqlite
+
+# ---------------- File Uploads ----------------
 python-multipart
+aiofiles
+
+# ---------------- LLMs ----------------
 google-generativeai
 groq
-duckduckgo-search
-pytest
-httpx
-itsdangerous
-pydantic[email]
+openai
+
+# ---------------- RAG / Embeddings ----------------
+sentence-transformers
+faiss-cpu
+numpy
+
+# ---------------- Document Processing ----------------
+PyPDF2
 PyMuPDF
+pytesseract
 beautifulsoup4
+duckduckgo-search
 langdetect
 pycountry
-aiosqlite
-python-jose[cryptography]
-pytesseract
-google-cloud-vision
-azure-cognitiveservices-speech
-authlib
-passlib[bcrypt]
-openai
 deep-translator
-aiofiles
-python-multipart
-sqlalchemy
-pydantic-settings
 
+# ---------------- OCR / Cloud AI ----------------
+google-cloud-vision
+azure-ai-formrecognizer
+azure-core
+azure-cognitiveservices-speech
+
+# ---------------- Testing ----------------
+pytest
